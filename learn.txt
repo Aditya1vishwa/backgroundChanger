@@ -1,0 +1,7 @@
+onclick=(setcolor)
+//we can also pass in this way but onclick want a function or it is a reference of it 
+but if you want to pass parameter in set color you have to write in function
+ becouse onclick need a function if you pass parameter the nit will return somthing but onclick cant get it becouse it need function
+
+
+onclick=(()=>{setcolor()})
